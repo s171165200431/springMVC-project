@@ -125,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="banner-bottom-grid-right animated wow slideInRight" data-wow-delay=".5s">
 					<div class="banner-bottom-grid-left-grid grid-left-grid1">
 						<div class="banner-bottom-grid-left-grid1">
-							<img src="<c:url value="resources/images/3.jpg"  />"class="img-responsive" />
+							<img src="<c:url value="resources/images/3..jpg"  />"class="img-responsive" />
 						</div>
 						<div class="grid-left-grid1-pos">
 							<p>top and classic designs <span>2016 Collection</span></p>

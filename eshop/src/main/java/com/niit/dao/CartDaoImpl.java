@@ -1,5 +1,7 @@
 package com.niit.dao;
 
+import java.io.IOException;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,5 +19,10 @@ import com.niit.model.Cart;
 	session.close();
 	return cart;
 	}
-
+	public Cart Validate(int cartId) throws IOException{
+		Cart cart=getCart(cartId);
+		if(cart.getCartItems().size()==0 ||cart==null)
+			throw new IOException(cartId +"");
+			return cart;
+	}
 }

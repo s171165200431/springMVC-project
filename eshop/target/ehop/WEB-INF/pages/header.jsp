@@ -6,7 +6,6 @@
 	uri="http://www.springframework.org/security/tags"%>
     <%@ page isELIgnored="false" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Furnish</title>
@@ -69,17 +68,18 @@
 				</div>
 				   <div class="header-grid-right animated wow slideInRight" data-wow-delay=".5s">
 					<ul class="social-icons">
-						<li><a href="#" class="facebook"></a></li>
-						<li><a href="#" class="twitter"></a></li>
-						<li><a href="#" class="g"></a></li>
-						<li><a href="#" class="instagram"></a></li>
+						<li><a href="https://www.facebook.com/" class="facebook"></a></li>
+						<li><a href="https://twitter.com/" class="twitter"></a></li>
+						<li><a href="https://accounts.google.com/" class="g"></a></li>
+						<li><a href="https://www.instagram.com/" class="instagram"></a></li>
 					</ul>
 				  </div>
+<html>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="logo-nav">
 				<div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-					<h1><a href="index.html">Furnish<span>Shop anywhere</span></a></h1>
+					<h1><a href="/home">Furnish<span>Shop anywhere</span></a></h1>
 				</div>
 				<div class="logo-nav-left1">
 					<nav class="navbar navbar-default">
@@ -164,7 +164,7 @@
 							
 	 </c:if>						
 							
-							<!-- <ul class="dropdown-menu multi-column columns-3">
+							 <ul class="dropdown-menu multi-column columns-3">
 									<div class="row">
 										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
@@ -201,9 +201,9 @@
 									</div>
 								</ul>
 							</li>
-							 <li><a href="<c:url value="/admin/product/productform"></c:url>">Add Product</a></li>
-							<li><a href="<c:url value="/all/product/getAllProducts" ></c:url>">mailus</a></li>
-						</ul>-->
+							 <!-- <li><a href="<c:url value="/admin/product/productform"></c:url>">Add Product</a></li>
+							<li><a href="<c:url value="/all/product/getAllProducts" ></c:url>">mailus</a></li>-->
+						</ul>
 					</div>
 					</nav>
 				</div>
@@ -234,7 +234,7 @@
 							</h3>
 						</a>
 						<security:authorize access="hasRole('ROLE_USER')">
-						<p><a href="<c:url value="/cart/getCartId"/>">Empty Cart</a></p>
+						<p><a href="<c:url value="/cart/getCartId"/>">Cart Here</a></p>
 						</security:authorize>
 						<div class="clearfix"> </div>
 					</div>	

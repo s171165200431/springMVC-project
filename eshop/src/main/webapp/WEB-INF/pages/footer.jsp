@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Best Store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>Furnish a Ecommerce Online Shopping </title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -124,7 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h2><a href="index.html">Furnish <span>shop anywhere</span></a></h2>
 			</div>
 			<div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
-				<p>&copy 2017 Best Store. All rights reserved | Design by <a href="http://w3layouts.com/"></a></p>
+				<p>&copy 2017 Furnish. All rights reserved | Design by <a href="http://w3layouts.com/"></a></p>
 			</div>
 		</div>
 	</div>
