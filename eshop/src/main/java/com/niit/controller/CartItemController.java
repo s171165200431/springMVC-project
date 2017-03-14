@@ -28,6 +28,8 @@ public class CartItemController {
 	private CustomerService customerService;
 	@Autowired
 	private ProductService productService;
+	@Autowired
+	private CartService cartService;
 	
 	public CartItemController()
 	{
@@ -75,7 +77,8 @@ cartItemService.removeCartItem(cartItem);
 @RequestMapping("/cart/removeAllCartItems/{cartId}")
 @ResponseStatus(value=HttpStatus.NO_CONTENT)
 public void removeAllCartItems(@PathVariable int cartId){
-Cart cart=CartService.getCart(cartId);
+Cart cart=cartService.getCart(cartId);
 cartItemService.removeAllCartItems(cart);
 }
+
 }

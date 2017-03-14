@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-public class Category implements Serializable {
+public class Category implements Serializable  {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 private int id;

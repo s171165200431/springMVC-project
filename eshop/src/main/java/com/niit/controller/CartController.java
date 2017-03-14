@@ -16,13 +16,13 @@ import com.niit.service.CustomerService;
 
 @Controller
 public class CartController {
-    @Autowired
-	private CustomerService customerService;
-    @Autowired
-    private CartService cartService;
-    
+@Autowired
+private CustomerService customerService;
+@Autowired
+private CartService cartService;
+	
 	@RequestMapping("/cart/getCartId")
-public String getCartId(Model model){
+	public String getCartId(Model model){
 	User user=(User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 	String username=user.getUsername();
 	Customer customer=customerService.getCustomerByUsername(username);
@@ -30,10 +30,10 @@ public String getCartId(Model model){
 	int cartId=cart.getId();
 	model.addAttribute("cartId",cartId);
 	return "cart";
-}
+	}
 	@RequestMapping("/cart/getCart/{cartId}")
 	public @ResponseBody Cart getCart(@PathVariable int cartId){
-		Cart cart=cartService.getCart(cartId);
-		return cart;
+	Cart cart=cartService.getCart(cartId);
+	return cart;
 	}	
 }

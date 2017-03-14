@@ -24,7 +24,6 @@ Check Out
 <td>{{cartItem.quantity}}</td>
 <td>{{cartItem.totalPrice}}</td>
 </tr>
-
 Remove
 </td>
 <td></td>
@@ -38,6 +37,7 @@ Total Price : {{calculateGrandTotal()}}
 </div>
 
 </div>
-<script src="<c:url value="/resources/js/controller.js"></c:url>"></script>
+
 </body>
+<script src="<c:url value="/resources/js/controller.js"></c:url>"></script>
 </html>

@@ -21,7 +21,15 @@ private SessionFactory sessionFactory;
 	   session.flush();
 	   session.close();	
 	}
-	public void removeCartItem(CartItem cartItem) {
+	public CartItem getCartItem(int cartItemId) {
+		Session session=sessionFactory.openSession();
+		CartItem cartItem=(CartItem)session.get(CartItem.class, cartItemId);
+		session.flush();
+		session.close();
+		return cartItem;
+		}
+
+		public void removeCartItem(CartItem cartItem) {
 		Session session=sessionFactory.openSession();
 		session.delete(cartItem);
 		session.flush();
@@ -34,14 +42,6 @@ private SessionFactory sessionFactory;
 		for(CartItem cartItem:cartItems){
 		removeCartItem(cartItem);
 		}
+
 		}
-		@Override
-		public CartItem getCartItem(int cartItemId) {
-			Session session=sessionFactory.openSession();
-			CartItem cartItem=(CartItem)session.get(CartItem.class, cartItemId);
-			session.flush();
-			session.close();
-			return cartItem;
-		}
-	
 }

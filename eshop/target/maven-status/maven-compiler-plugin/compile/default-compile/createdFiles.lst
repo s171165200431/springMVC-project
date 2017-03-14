@@ -1,5 +1,6 @@
 com\niit\controller\CustomerController.class
 com\niit\model\Product.class
+com\niit\controller\CartItemController.class
 com\niit\dao\ProductDaoImpl.class
 com\niit\dao\CustomerDaoImpl.class
 com\niit\service\CustomerServiceImpl.class

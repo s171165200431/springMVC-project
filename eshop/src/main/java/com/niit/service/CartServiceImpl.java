@@ -8,10 +8,11 @@ import com.niit.model.Cart;
 
 @Service
 public class CartServiceImpl implements CartService{
-	@Autowired
+@Autowired
 private CartDao cartDao;
-	public Cart getCart(int cartId) {
-		return cartDao.getCart(cartId);
-	}
-
+public Cart getCart(int cartId) {
+return cartDao.getCart(cartId);
 }
+}
+
+

@@ -1,5 +1,7 @@
 package com.niit.model;
 
+import java.io.Serializable;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,29 +15,38 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
-public class Customer {
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+public class Customer implements Serializable {
+	
+@Id
+@GeneratedValue(strategy=GenerationType.AUTO)
 private int id;
-	@NotEmpty(message="please enter firstname")
+
+@NotEmpty(message="please enter firstname")
 private String firstname;
-	@NotEmpty(message="please enter lastname")
+
+@NotEmpty(message="please enter lastname")
 private String lastname;
-	@NotEmpty(message="please enter email")
-	@Email(message="enter a valid emailaddress")
+
+@NotEmpty(message="please enter email")
+@Email(message="enter a valid emailaddress")
 private String email;
-	@NotEmpty(message="please enter phonenumber")
-	@Length(max=10,min=10)
+
+@NotEmpty(message="please enter phonenumber")
+@Length(max=10,min=10)
 private String phonenumber;
+
 @OneToOne(cascade=CascadeType.ALL)
 @JoinColumn(name="user_id")
 private Users users;
+
 @OneToOne(cascade=CascadeType.ALL)
 @JoinColumn(name="billingAddress_id")
 private BillingAddress billingAddress;
+
 @OneToOne(cascade=CascadeType.ALL)
 @JoinColumn(name="shippingAddress_id")
 private ShippingAddress shippingAddress;
+
 @OneToOne(cascade=CascadeType.ALL)
 @JoinColumn(name="cart_id")
 private Cart cart;

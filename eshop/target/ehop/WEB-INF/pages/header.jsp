@@ -234,7 +234,7 @@
 							</h3>
 						</a>
 						<security:authorize access="hasRole('ROLE_USER')">
-						<p><a href="<c:url value="/cart/getCartId"/>"> class="simpleCart_empty">Empty Cart</a></p>
+						<p><a href="<c:url value="/cart/getCartId"/>">Empty Cart</a></p>
 						</security:authorize>
 						<div class="clearfix"> </div>
 					</div>	

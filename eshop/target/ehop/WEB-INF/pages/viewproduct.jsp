@@ -96,8 +96,9 @@
 
 </table>
 </div>
-<script src="<c:url value="/resources/js/controller.js"></c:url>"></script>
+
 </body>
+<script src="<c:url value="/resources/js/controller.js"></c:url>"></script>
 <%@include file="footer.jsp" %>
 </html>
 

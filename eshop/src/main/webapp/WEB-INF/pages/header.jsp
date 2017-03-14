@@ -6,7 +6,6 @@
 	uri="http://www.springframework.org/security/tags"%>
     <%@ page isELIgnored="false" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Furnish</title>
@@ -69,12 +68,13 @@
 				</div>
 				   <div class="header-grid-right animated wow slideInRight" data-wow-delay=".5s">
 					<ul class="social-icons">
-						<li><a href="#" class="facebook"></a></li>
+						<li><a href="https://www.facebook.com/" class="facebook"></a></li>
 						<li><a href="#" class="twitter"></a></li>
 						<li><a href="#" class="g"></a></li>
 						<li><a href="#" class="instagram"></a></li>
 					</ul>
 				  </div>
+<html>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="logo-nav">

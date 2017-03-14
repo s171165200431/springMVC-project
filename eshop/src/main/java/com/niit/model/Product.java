@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Entity
 @Table(name="product")
 
-public class Product implements Serializable {
+public class Product implements Serializable{
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 private int id;

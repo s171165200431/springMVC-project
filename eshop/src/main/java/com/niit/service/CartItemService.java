@@ -7,8 +7,7 @@ public interface CartItemService {
 	void addCartItem(CartItem cartItem);
 
 	void removeCartItem(CartItem cartItem);
-
+	CartItem getCartItem(int cartItemId);
 	void removeAllCartItems(Cart cart);
 
-	CartItem getCartItem(int cartItemId);
 }

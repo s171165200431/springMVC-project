@@ -9,20 +9,20 @@ alert("Product successfully added to the cart")
 $scope.getCart=function(cartId){
 $scope.cartId=cartId;
 console.log("cartid is " + cartId)
-$http.get('http://localhost:8080/project1/cart/getCart/'+cartId).success(function(data){
+$http.get('http://localhost:8080/eshop/cart/getCart/'+cartId).success(function(data){
 $scope.cart=data
 })
 }
 
 $scope.removeFromCart=function(cartItemId){
 console.log('cartitem to be removed is ' + cartItemId);
-$http.put('http://localhost:8080/project1/cart/removeCartItem/'+cartItemId).success(function(){
+$http.put('http://localhost:8080/eshop/cart/removeCartItem/'+cartItemId).success(function(){
 $scope.getCart($scope.cartId)
 })
 }
 
 $scope.clearCart=function(){
-$http.put('http://localhost:8080/project1/cart/removeAllCartItems/'+$scope.cartId).success(function(){
+$http.put('http://localhost:8080/eshop/cart/removeAllCartItems/'+$scope.cartId).success(function(){
 $scope.getCart($scope.cartId)
 })
 }
