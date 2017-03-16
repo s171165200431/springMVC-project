@@ -8,12 +8,15 @@ D:\FurnishWorkspace\eshop\src\main\java\com\niit\dao\ProductDaoImpl.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\service\CategoryServiceImpl.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\ShippingAddress.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\dao\CartItemDaoImpl.java
+D:\FurnishWorkspace\eshop\src\main\java\com\niit\dao\CustomerOrderDaoImpl.java
+D:\FurnishWorkspace\eshop\src\main\java\com\niit\dao\CustomerOrderDao.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\controller\ProductController.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\Product.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\CartItem.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\controller\CustomerController.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\Authorities.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\BillingAddress.java
+D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\CustomerOrder.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\dao\CustomerDaoImpl.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\dao\CartDaoImpl.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\controller\CartController.java
@@ -31,4 +34,5 @@ D:\FurnishWorkspace\eshop\src\main\java\com\niit\dao\CategoryDaoImpl.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\service\CartServiceImpl.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\Users.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\service\CategoryService.java
+D:\FurnishWorkspace\eshop\src\main\java\com\niit\controller\CustomerOrderController.java
 D:\FurnishWorkspace\eshop\src\main\java\com\niit\model\Cart.java

@@ -23,6 +23,8 @@ import com.niit.model.Cart;
 		Cart cart=getCart(cartId);
 		if(cart.getCartItems().size()==0 ||cart==null)
 			throw new IOException(cartId +"");
+		Session session=sessionFactory.openSession();
+		session.close();
 			return cart;
 	}
 }
