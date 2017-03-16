@@ -1,40 +1,58 @@
 package com.niit.model;
 
-public class CustomerOrder {
-private String cart;
-private String customer;
-private String billingAddress;
-private String ShippingAddress;
-private int grandtotal;
-public String getCart() {
-	return cart;
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+@Entity
+public class CustomerOrder implements Serializable{
+@Id
+@GeneratedValue(strategy=GenerationType.AUTO)
+	private int customerOrderId;
+@OneToOne
+@JoinColumn(name="customer_id")
+private Customer customer;
+@OneToOne
+@JoinColumn(name="billingAddress_id")
+private BillingAddress billingAddress;
+@OneToOne
+@JoinColumn(name="shippingAddress_id")
+private ShippingAddress ShippingAddress;
+@OneToOne
+@JoinColumn(name="cart_id")
+private Cart cart;
+public int getCustomerOrderId() {
+	return customerOrderId;
 }
-public void setCart(String cart) {
-	this.cart = cart;
+public void setCustomerOrderId(int customerOrderId) {
+	this.customerOrderId = customerOrderId;
 }
-public String getCustomer() {
+public Customer getCustomer() {
 	return customer;
 }
-public void setCustomer(String customer) {
+public void setCustomer(Customer customer) {
 	this.customer = customer;
 }
-public String getBillingAddress() {
+public BillingAddress getBillingAddress() {
 	return billingAddress;
 }
-public void setBillingAddress(String billingAddress) {
+public void setBillingAddress(BillingAddress billingAddress) {
 	this.billingAddress = billingAddress;
 }
-public String getShippingAddress() {
+public ShippingAddress getShippingAddress() {
 	return ShippingAddress;
 }
-public void setShippingAddress(String shippingAddress) {
+public void setShippingAddress(ShippingAddress shippingAddress) {
 	ShippingAddress = shippingAddress;
 }
-public int getGrandtotal() {
-	return grandtotal;
+public Cart getCart() {
+	return cart;
 }
-public void setGrandtotal(int grandtotal) {
-	this.grandtotal = grandtotal;
+public void setCart(Cart cart) {
+	this.cart = cart;
 }
-
 }

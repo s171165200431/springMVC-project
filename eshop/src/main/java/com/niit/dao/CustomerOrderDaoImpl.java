@@ -31,7 +31,7 @@ private SessionFactory sessionFactory;
 	for(CartItem cartItem:cartItems){
 		grandTotal=grandTotal + cartItem.getTotalPrice();
 	}
-	cart.setGrandTotal(grandTotal);
+	cart.setGrandtotal(grandTotal);
 	//update cart set grandtotal=? where cartid=?
 	session.update(cart);
 	session.flush();
