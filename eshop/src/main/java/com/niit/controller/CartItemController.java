@@ -39,6 +39,9 @@ public class CartItemController {
 	
 @RequestMapping("/cart/addCartItem/{pid}")
 public void addCartItem(@PathVariable(value="pid") int productId){
+	
+	System.out.println("inside addCartItem method");
+	
 	User user=
 			(User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 	

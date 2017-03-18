@@ -11,14 +11,21 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="container-wrapper">
+<!--  <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
             <h1>Cutomer</h1>
 
 
             <p class="lead">Customer Details:</p>
-        </div>
+        </div>-->
+        <div class="register">
+		<div class="container">
+			<h3 class="animated wow zoomIn" data-wow-delay=".5s">Customer</h3>
+			<p class="est animated wow zoomIn" data-wow-delay=".5s">
+			<div class="login-form-grids">
+				<h5 class="animated wow slideInUp" data-wow-delay=".5s">profile information</h5>
+				
 
         <form:form commandName="order" class="form-horizontal">
 
@@ -84,9 +91,13 @@
 
         <input type="submit" value="Next" class="btn btn-default" name="_eventId_customerInfoCollected" />
 
-        <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
+        <td><button  class="btn btn-default" name="_eventId_cancel">Cancel</button></td>
 
         </form:form>
+        </div>
+        </div>
+        </div>
+        
 </body>
 
 <%@ include file="/WEB-INF/pages/footer.jsp" %>

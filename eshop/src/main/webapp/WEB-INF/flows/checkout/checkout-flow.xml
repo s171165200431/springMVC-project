@@ -14,13 +14,18 @@
  </view-state>
  
  <view-state id="collectShippingDetail" model="order">
- <transition on="shippingDetailCollected" to="orderConfirmation"></transition>
+ <transition on="shippingDetailCollected" to="collectCardDetails"></transition>
  <transition on="backToCollectCustomerInfo" to="collectCustomerInfo"></transition>
  </view-state>
+ <view-state id="collectCardDetails" model="order">
+ <transition on="cardDetailCollected" to="orderConfirmation"></transition>
+ <transition on="backTocollectShippingDetail" to="collectShippingDetail"></transition>
+ </view-state>
+ 
  
  <view-state id="orderConfirmation">
  <transition on="orderConfirmed" to="processOrder"></transition>
- <transition on="backToCollectShippingDetail" to="collectShippingDetail"></transition>
+ <transition on="backTocollectCardDetails" to="collectCardDetails"></transition>
  </view-state>
  
  <action-state id="processOrder">

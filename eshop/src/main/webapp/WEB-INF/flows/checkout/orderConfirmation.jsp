@@ -12,14 +12,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="container-wrapper">
+ <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
             <h1>Order</h1>
 
             <p class="lead">Order confirmation</p>
         </div>
-
+ 
+		
         <div class="container">
 
             <div class="row">
@@ -102,7 +103,7 @@
 
                         <br/><br/>
 
-                        <button class="btn btn-default" name="_eventId_backToCollectShippingDetail">Back</button>
+                        <button class="btn btn-default" name="_eventId_backTocollectCardDetails">Back</button>
 
                         <input type="submit" value="Submit Order" class="btn btn-default" name="_eventId_orderConfirmed" />
 

@@ -28,7 +28,7 @@ public class HomeController {
 		
 		return "index";
 	}
-	@RequestMapping("/login")
+	@RequestMapping("/loginpage")
 	public String login(@RequestParam(value="error",required=false) String error,
 			@RequestParam(value="logout",required=false) String logout,
 			Model model){
@@ -36,7 +36,7 @@ public class HomeController {
 			model.addAttribute("error","Invalid Username and Password.. Please enter valid username and password");
 		if(logout!=null)
 			model.addAttribute("logout","Loggedout successfully..");
-		return "login";
+		return "loginhere";
 	}
 	
 }

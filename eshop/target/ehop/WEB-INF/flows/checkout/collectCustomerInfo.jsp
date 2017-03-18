@@ -50,12 +50,12 @@
 
         <div class="form-group">
             <label for="billingStreet">Street Name</label>
-            <form:input path="cart.customer.billingAddress.streetName" id="billingStreet" class="form-Control" />
+            <form:input path="cart.customer.billingAddress.streetname" id="billingStreet" class="form-Control" />
         </div>
 
         <div class="form-group">
             <label for="billingApartmentNumber">Apartment Number</label>
-            <form:input path="cart.customer.billingAddress.apartmentNumber" id="billingApartmentNumber" class="form-Control" />
+            <form:input path="cart.customer.billingAddress.apartmentnumber" id="billingApartmentNumber" class="form-Control" />
         </div>
 
         <div class="form-group">

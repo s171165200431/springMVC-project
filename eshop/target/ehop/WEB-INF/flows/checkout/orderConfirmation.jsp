@@ -35,7 +35,7 @@
                             <div class="col-xs-6 col-sm-6 col-md-6">
                                 <address>
                                     <strong>Shipping Address</strong><br/>
-                                    ${order.cart.customer.shippingAddress.streetName}
+                                    ${order.cart.customer.shippingAddress.streetname}
                                 <br/>
                                     ${order.cart.customer.shippingAddress.city}, ${order.cart.customer.shippingAddress.state}
                                 <br/>
@@ -51,7 +51,7 @@
                             <div class="col-xs-6 col-sm-6 col-md-6">
                                 <address>
                                     <strong>Billing Address</strong><br/>
-                                        ${order.cart.customer.billingAddress.streetName}
+                                        ${order.cart.customer.billingAddress.streetname}
                                     <br/>
                                         ${order.cart.customer.billingAddress.city}, ${order.cart.customer.billingAddress.state}
                                     <br/>

@@ -53,16 +53,16 @@
 			<div class="header-grid">
 				<div class="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
 					<ul>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="harishreer@gmail.com">@example.com</a></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="harishreer@gmail.com">harishreer@gmail.com</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>9600604299</li>
 						<c:if test="${pageContext.request.userPrincipal.name ==null }">
-						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="<c:url value="/login"></c:url>">Login</a></li>
+						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="<c:url value="/loginpage"></c:url>">Login</a></li>
 					       </c:if>
 					       <c:if test="${pageContext.request.userPrincipal.name ==null }">
 						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="<c:url value="/all/registrationForm"></c:url>">Register</a></li>
 					       </c:if>
 					       <c:if test="${pageContext.request.userPrincipal.name !=null }">
-						<li><a href="<c:url value="/login?logout"></c:url>">logout</a></li>
+						<li><a href="<c:url value="/loginpage?logout"></c:url>">logout</a></li>
 			               </c:if>
 					</ul>
 				</div>
@@ -79,7 +79,8 @@
 			</div>
 			<div class="logo-nav">
 				<div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-					<h1><a href="/home">Furnish<span>Shop anywhere</span></a></h1>
+				<c:url var="url" value="/home"></c:url>
+					<h1><a href="${url}">Furnish<span>Shop anywhere</span></a></h1>
 				</div>
 				<div class="logo-nav-left1">
 					<nav class="navbar navbar-default">
@@ -94,7 +95,8 @@
 				    </div> 
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="/home" class="act">Home</a></li>
+						<c:url var="url" value="/home"></c:url>
+							<li class="active"><a href="${url}" class="act">Home</a></li>
 							
 							<c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
     							 <li><a href="${allProducts}">All product</a></li>	
