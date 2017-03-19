@@ -154,16 +154,18 @@
    
  		<li class="dropdown">
 								
-							
+							<security:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_USER')">
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">Furniture<b class="caret"></b></a>
+							</security:authorize>
 				<ul class="dropdown-menu">
 								<c:forEach var="c" items="${categories }">
 							<li><a href="<c:url value="/all/product/productsByCategory?searchCondition=${c.categoryDetails}"></c:url>" > ${c.categoryDetails}</a></li>
 								</c:forEach>
 			    </ul>
 		</li>
+		<security:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_USER')">
 			<li><a href="">welcome ${pageContext.request.userPrincipal.name }</a></li>
-							
+		</security:authorize>					
 	 </c:if>						
 							
 							 <ul class="dropdown-menu multi-column columns-3">
@@ -229,13 +231,14 @@
 				</div>
 				<div class="header-right">
 					<div class="cart box_1">
-						<a href="checkout.html">
+					<security:authorize access="hasRole('ROLE_USER')">
+						<a href="<c:url value="/cart/getCartId"/>">
 							<h3> <div class="total">
-								<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+								<span class=""></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
 								<img src="<c:url value="/resources/images/bag.png"  />" >
 							</h3>
 						</a>
-						<security:authorize access="hasRole('ROLE_USER')">
+						
 						<p><a href="<c:url value="/cart/getCartId"/>">Cart Here</a></p>
 						</security:authorize>
 						<div class="clearfix"> </div>

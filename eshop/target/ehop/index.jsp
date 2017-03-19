@@ -151,7 +151,7 @@
 							<div class="new-collections-grid1-right">
 								<div class="rating">
 									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png"/>" class="img-responsive" >
+										<img src="<c:url value="resources/images/2.png"/>" class="img-responsive" />
 									</div>
 									<div class="rating-left">
 										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" />
@@ -375,7 +375,7 @@
 										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
 									</div>
 									<div class="rating-left">
-										<img src="<c:url value="resourcesimages/1.png" />" class="img-responsive" alt=" ">
+										<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
 									</div>
 									<div class="clearfix"> </div>
 								</div>

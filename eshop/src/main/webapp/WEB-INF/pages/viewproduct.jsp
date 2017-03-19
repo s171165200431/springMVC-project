@@ -122,14 +122,9 @@
 					<div class="flexslider">
 						<ul class="slides">
 							<li data-thumb="<c:url value="resources/images/si.jpg"/>">
-								<div class="thumb-image"> <img src="<c:url value="resources/images/si.jpg" />"data-imagezoom="true" class="img-responsive"> </div>
+								<div class="thumb-image"> <img src="<c:url value="/resources/images/${p.id }.png"/>"alt="${p.id }" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
-							<li data-thumb="resources/images/si1.jpg">
-								 <div class="thumb-image"> <img src="<c:url value="resources/images/si1.jpg"/>" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="resources/images/si2.jpg">
-							   <div class="thumb-image"> <img src="<c:url value="resources/images/si2.jpg"/>" data-imagezoom="true" class="img-responsive"> </div>
-							</li> 
+							 
 						</ul>
 					</div>
 					<!-- flixslider -->

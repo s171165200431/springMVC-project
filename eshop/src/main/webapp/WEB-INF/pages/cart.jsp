@@ -44,7 +44,7 @@
 					</thead>
 					<tr ng-repeat="cartItem in  cart.cartItems">
 						<td class="invert">1</td>
-						<td <a href="single.html"><img src=""<c:url value="/resources/images/${p.id }.png"/>"alt="${p.id }" class="img-responsive" /></a></td>
+						<td <a href="single.html"><img src="<c:url value="/resources/images/${p.id }.png"/>">class="img-responsive" /></a></td>
 						<td class="invert">
 							 <div class="quantity"> 
 								<div class="quantity-select">                           

@@ -172,7 +172,7 @@
 						<h4><a href="single.html">SOFA</a></h4>
 						<p>Best cushion sofa .</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>50000</i> <span class="item_price">45000</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i>50000</i> <span class="item_price">45000</span><a class="item_add" href="all/product/viewproduct/1">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
