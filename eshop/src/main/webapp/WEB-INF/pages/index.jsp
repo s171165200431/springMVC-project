@@ -172,7 +172,7 @@
 						<h4><a href="single.html">SOFA</a></h4>
 						<p>Best cushion sofa .</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>50000</i> <span class="item_price">45000</span><a class="item_add" href="all/product/viewproduct/1">add to cart </a></p>
+							<p><i></i> <span class="item_price">45000</span><a class="item_add" href="all/product/viewproduct/1">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
@@ -205,7 +205,7 @@
 						<h4><a href="single.html">chair</a></h4>
 						<p>Modren chair</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>2000</i> <span class="item_price">1750</span><a class="item_add" href="all/product/viewproduct/2">add to cart </a></p>
+							<p><i></i> <span class="item_price">1750</span><a class="item_add" href="all/product/viewproduct/2">add to cart </a></p>
 						</div>
 					</div>
 				</div>
@@ -243,7 +243,7 @@
 						<h4><a href="single.html">Dining Table</a></h4>
 						<p>Elagent Design...</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>80000</i> <span class="item_price">75000</span><a class="item_add" href="all/product/viewproduct/3">add to cart </a></p>
+							<p><i></i> <span class="item_price">75000</span><a class="item_add" href="all/product/viewproduct/3">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid-sub-grids">
@@ -278,7 +278,7 @@
 								<h4><a href="single.html">cushion sofa</a></h4>
 								<p>Best sofa design ...</p>
 								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i>60000</i> <span class="item_price">50000</span><a class="item_add" href="all/product/viewproduct/4">add to cart </a></p>
+									<p><i></i> <span class="item_price">50000</span><a class="item_add" href="all/product/viewproduct/4">add to cart </a></p>
 								</div>
 							</div>
 						</div>
@@ -313,7 +313,7 @@
 								<h4><a href="single.html">Wall Lamp</a></h4>
 								<p>Vel illum qui dolorem eum fugiat.</p>
 								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i>$280</i> <span class="item_price">$150</span><a class="item_add" href="all/product/viewproduct/5">add to cart </a></p>
+									<p><i>$280</i> <span class="item_price">150</span><a class="item_add" href="all/product/viewproduct/5">add to cart </a></p>
 								</div>
 							</div>
 						</div>

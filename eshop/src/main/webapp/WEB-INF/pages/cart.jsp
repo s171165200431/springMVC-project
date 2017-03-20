@@ -14,13 +14,12 @@
 <div ng-app="app" ng-controller="ProductController">
 <div ng-init="getCart(${cartId})">
 <a href="<spring:url value="/order/${cartId}"/>
-
 <!-- breadcrumbs -->
 	<div class="breadcrumbs">
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
 				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-				<li class="active">Checkout Page</li>
+				<li class="active">ViewPage</li>
 			</ol>
 		</div>
 	</div>
@@ -28,14 +27,16 @@
 <!-- checkout -->
 	<div class="checkout">
 		<div class="container">
-			<h3 class="animated wow slideInLeft" data-wow-delay=".5s">Your shopping cart contains: <span>3 Products</span></h3>
+			<h3 class="animated wow slideInLeft" data-wow-delay=".5s">Your shopping cart contains: <span></span></h3>
 			<div class="checkout-right animated wow slideInUp" data-wow-delay=".5s">
+			 <a href=""class="btn btn-danger"pull-left ng-click="clearcart()">
+<span class="glyphicon glyphicon-remove-sign"></span>
+Clear Cart
+</a>
 				<table class="timetable_sub">
 					<thead>
 						<tr>
 							<th>SL No.</th>	
-							<th>Product</th>
-							<th>Quality</th>
 							<th>Product Name</th>
 							<th>Quantity</th>
 							<th>Price</th>
@@ -44,15 +45,15 @@
 					</thead>
 					<tr ng-repeat="cartItem in  cart.cartItems">
 						<td class="invert">1</td>
-						<td <a href="single.html"><img src="<c:url value="/resources/images/${p.id }.png"/>">class="img-responsive" /></a></td>
-						<td class="invert">
+					  <!--  	<td <a href="single.html"><img src="<c:url value="/resources/images/${p.id }.png"/>">class="img-responsive" /></a></td>-->
+					<!--  	<td class="invert">
 							 <div class="quantity"> 
 								<div class="quantity-select">                           
 									<div class="entry value-minus">&nbsp;</div>
 									<div class="entry value"><span>1</span></div>
 									<div class="entry value-plus active">&nbsp;</div>
 								</div>
-						</td>
+						</td>-->
 						<td class="invert">{{cartItem.product.name}}</td>
 						<td class="invert">{{cartItem.quantity}}</td>
 						<td class="invert">{{cartItem.totalPrice}}</td>
@@ -80,7 +81,6 @@
 										var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)+1;
 										divUpd.text(newVal);
 									});
-
 									$('.value-minus').on('click', function(){
 										var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)-1;
 										if(newVal>=1) divUpd.text(newVal);
@@ -110,42 +110,7 @@
 			</div>
 		</div>
 	</div>
-<!-- //checkout -->
-<!--  <a href=""class="btn btn-danger"pull-left ng-click="clearcart()">
-<span class="glyphicon glyphicon-remove-sign"></span>
 
-Clear Cart
-
-
-</a>
-<a href="<spring:url value="/order/${cartId}"/>" class="btn btn-success pull-right"><span class="glyphicon glyphicon-shopping-cart"></span>checkout</a><br>
-<table class="table table-striped">
-<thead>
-<tr><th>Name</th><th>Quantity</th><th>Total Price</th><th>remove</th>
-</tr>
-</thead>
-
-<tr ng-repeat="cartItem in  cart.cartItems">
-<td>{{cartItem.product.name}}</td>
-<td>{{cartItem.quantity}}</td>
-<td>{{cartItem.totalPrice}}</td>
-<td><a href="" class="label label-danger" pull-left ng-click="removeFromCart(cartItem.id)">
-<span class="glyphicon glyphicon-remove"></span>Remove
-</a>
-</td>
-<td>
-</td>
-
-</tr>
-
-</table>
-Total Price : {{calculateGrandTotal()}}
-
-</table>
-
-</div>
-
-</div>-->
 
 </body>
 <script src="<c:url value="/resources/js/controller.js"></c:url>"></script>

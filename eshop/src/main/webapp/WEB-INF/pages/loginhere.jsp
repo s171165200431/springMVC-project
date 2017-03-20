@@ -46,12 +46,7 @@
 <!-- //animation-effect -->
 </head>
 <body>
-<!--  ENTER USERNAME AND PASSWORD <br>
 
-<form action="<c:url value="j_spring_security_check"></c:url>" method="post" >
-Enter username <input type="text" name="j_username"><br>
-Enter password <input type="text" name="j_password"><br>
-<input type="submit" value="submit">-->
 <!-- login -->
 ${error }
 ${logout }
@@ -62,8 +57,8 @@ ${registrationSuccess }
 			<p class="est animated wow zoomIn" data-wow-delay=".5s">Login here and enjoy purchase..	</p>
 			<div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
 				<form action="<c:url value="j_spring_security_check"></c:url>" method="post">
-					<input type="text" placeholder="username" required=" " name="j_username">
-					<input type="password" placeholder="Password" required=" " name="j_password">
+					<input type="text" title="name should have max 15 min 3 char" pattern="[A-Za-z]{3,15}" placeholder="username" required=" " name="j_username">
+					<input type="password" title="Password should be min one uppercase,lowercase and number" placeholder="Password" required=" "  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="j_password">
 					<div class="forgot">
 						<a href="#">Forgot Password?</a>
 					</div>

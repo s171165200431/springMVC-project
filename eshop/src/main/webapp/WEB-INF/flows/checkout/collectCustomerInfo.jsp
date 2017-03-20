@@ -11,14 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!--  <div class="container-wrapper">
-    <div class="container">
-        <div class="page-header">
-            <h1>Cutomer</h1>
 
-
-            <p class="lead">Customer Details:</p>
-        </div>-->
         <div class="register">
 		<div class="container">
 			<h3 class="animated wow zoomIn" data-wow-delay=".5s">Customer</h3>

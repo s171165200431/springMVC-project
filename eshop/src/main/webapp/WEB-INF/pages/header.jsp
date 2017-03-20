@@ -62,7 +62,7 @@
 						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="<c:url value="/all/registrationForm"></c:url>">Register</a></li>
 					       </c:if>
 					       <c:if test="${pageContext.request.userPrincipal.name !=null }">
-						<li><a href="<c:url value="/loginpage?logout"></c:url>">logout</a></li>
+						<li><a href="<c:url value="/loginpage?logout"></c:url>">Logout</a></li>
 			               </c:if>
 					</ul>
 				</div>
@@ -100,47 +100,7 @@
 							
 							<c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
     							 <li><a href="${allProducts}">All product</a></li>	
-							<!-- Mega Menu -->
-							<!--  <li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Chair</h6>
-												<li><a href="products.html">plastic</a></li>
-												<li><a href="products.html">Wooden</a></li>
-												<li><a href="products.html">cushion</a></li>
-												<li><a href="products.html">Dinning chair</a></li>
-												<li><a href="products.html">office chair</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Sofa</h6>
-												<li><a href="products.html">Wooden</a></li>
-												<li><a href="products.html">cushion sofa set</a></li>
-												<li><a href="products.html">leather</a></li>
-												<li><a href="products.html">paleroma</a></li>
-												<li><a href="products.html">Accessories</a></li>
-												<li><a href="products.html">Jewellery</a></li>
-												<li><a href="products.html">Beauty & Grooming</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Table</h6>
-												<li><a href="products.html">Dinning table</a></li>
-												<li><a href="products.html">Coffee table</a></li>
-												<li><a href="products.html">Billiards table</a></li>
-												<li><a href="products.html">Chess table</a></li>
-												<li><a href="products.html">Brand Stores</a></li>
-											</ul>
-										</div>
-										<div class="clearfix"></div>
-									</div>
-								</ul>
-							</li>-->
+							
 						<!-- http://localhost:8080/project1/admin/product/productform -->	
 				                           <c:url var="url" value="/admin/product/productform"></c:url>
 				                           

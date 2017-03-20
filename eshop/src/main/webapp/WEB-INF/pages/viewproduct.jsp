@@ -66,7 +66,7 @@
 		</div>
 	</div>
 <!-- //breadcrumbs -->
-<!-- single -->
+<!-- ViewProduct-->
 	<div class="single">
 		<div class="container">
 			<div class="col-md-4 products-left">
@@ -99,30 +99,29 @@
 				<div class="categories animated wow slideInUp" data-wow-delay=".5s">
 					<h3>Categories</h3>
 					<ul class="cate">
-						<li><a href="products.html">sofa</a> <span>(15)</span></li>
-						<li><a href="products.html">Home Collections</a> <span>(16)</span></li>
+					<c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
+    							 <li><a href="${allProducts}">sofa</a><span>(15)</span></li>
+						<c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
+    							 <li><a href="${allProducts}">HomeColection</a><span>(15)</span></li>
 							<ul>
-								<li><a href="products.html">Sofa</a> <span>(2)</span></li>
-								<li><a href="products.html">Table</a> <span>(0)</span></li>
-								<li><a href="products.html">Bed</a> <span>(1)</span></li>
+								 <c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
+    							 <li><a href="${allProducts}">sofa</a><span>(2)</span></li>
+								<c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
+    							 <li><a href="${allProducts}">Table</a> <span>(0)</span></li>
+								<c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
+    							 <li><a href="${allProducts}">Bed</a> <span>(1)</span></li>
 							</ul>
 						
 					</ul>
 				</div>
-				<div class="men-position animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><img src="<c:url value="resources/images/29.png" />"alt=" " class="img-responsive" /></a>
-					<div class="men-position-pos">
-						<h4>Summer collection</h4>
-						<h5><span>55%</span> Flat Discount</h5>
-					</div>
-				</div>
+				
 			</div>
 			<div class="col-md-8 single-right">
 				<div class="col-md-5 single-right-left animated wow slideInUp" data-wow-delay=".5s">
 					<div class="flexslider">
 						<ul class="slides">
-							<li data-thumb="<c:url value="resources/images/si.jpg"/>">
-								<div class="thumb-image"> <img src="<c:url value="/resources/images/${p.id }.png"/>"alt="${p.id }" data-imagezoom="true" class="img-responsive"> </div>
+							<li data-thumb="<c:url value="resources/images/${product.id }.png"/>">
+								<div class="thumb-image"> <img src="<c:url value="/resources/images/${product.id }.png"/>"alt="${product.id }" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
 							 
 						</ul>
@@ -163,40 +162,10 @@
 						<p>${product.description }</p>
 						
 					</div>
-					<div class="color-quality">
-						<div class="color-quality-left">
-							<h5>Color : </h5>
-							<ul>
-								<li><a href="#"><span></span>Red</a></li>
-								<li><a href="#" class="brown"><span></span>Yellow</a></li>
-								<li><a href="#" class="purple"><span></span>Purple</a></li>
-								<li><a href="#" class="gray"><span></span>Violet</a></li>
-							</ul>
-						</div>
-						<div class="color-quality-right">
-							<h5>Quality :</h5>
-							<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null">5 Qty</option>
-								<option value="null">6 Qty</option> 
-								<option value="null">7 Qty</option>					
-								<option value="null">10 Qty</option>								
-							</select>
-						</div>
+					
 						<div class="clearfix"> </div>
 					</div>
-					<div class="occasional">
-						<h5>Occasion :</h5>
-						<div class="colr ert">
-							<label class="radio"><input type="radio" name="radio" checked=""><i></i>Casual Wear</label>
-						</div>
-						<div class="colr">
-							<label class="radio"><input type="radio" name="radio"><i></i>Party Wear</label>
-						</div>
-						<div class="colr">
-							<label class="radio"><input type="radio" name="radio"><i></i>Formal Wear</label>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+					
 					<div class="occasion-cart">
 						<a class="item_add" href=""ng-click="addToCart(${product.id })">add to cart </a>
 						
@@ -207,10 +176,10 @@
 						</div>
 						<div class="social-right">
 							<ul class="social-icons">
-								<li><a href="#" class="facebook"></a></li>
-								<li><a href="#" class="twitter"></a></li>
-								<li><a href="#" class="g"></a></li>
-								<li><a href="#" class="instagram"></a></li>
+								<li><a href="https://www.facebook.com/" class="facebook"></a></li>
+								<li><a href="https://twitter.com/" class="twitter"></a></li>
+								<li><a href="https://accounts.google.com/" class="g"></a></li>
+								<li><a href="https://www.instagram.com/" class="instagram"></a></li>
 							</ul>
 						</div>
 						<div class="clearfix"> </div>
@@ -220,50 +189,11 @@
 			</div>
 			<div class="clearfix"> </div>
 		</div>
-	</div>
-<!-- //single -->
+	
+<!-- //viewproduct -->
 
 
-<div>
-<div class="page-header">
-<b>product Details</b>
-</div>
-<table>
-<thead>
-<tr>
-<th>Label</th>
-<th>value</th>
-</tr>
-</thead>
-<tr>
-<td>Product Name:</td>
-<td>${product.name }</td>
-</tr>
-<tr>
-<td>Product Description:</td>
-<td>${product.description }</td>
-</tr>
-<tr>
-<td>Product Price:</td>
-<td>${product.price }</td>
-</tr>
-<tr>
-<td>Category Details:</td>
-<td>${product.category.categoryDetails }</td>
-</tr>
-<tr>
-<td>Manufacturing Date:</td>
-<td>${product.mfg }</td>
-</tr>
-<tr>
-			<td>
-			</td>
-			
-			<td><a href="" ng-click="addToCart(${product.id })"><span class="glyphicon glyphicon-shopping-cart"></span></a></td>
-			</tr>
 
-</table>
-</div>
 
 </body>
 <script src="<c:url value="/resources/js/controller.js"></c:url>"></script>

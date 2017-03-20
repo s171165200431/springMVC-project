@@ -112,6 +112,9 @@
                 </form:form>
             </div>
         </div>
+        </div>
+        </div>
+        
 </body>
 <%@ include file="/WEB-INF/pages/footer.jsp" %>
 </html>

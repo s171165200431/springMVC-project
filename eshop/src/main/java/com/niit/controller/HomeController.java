@@ -38,5 +38,6 @@ public class HomeController {
 			model.addAttribute("logout","Loggedout successfully..");
 		return "loginhere";
 	}
-	
+
+
 }

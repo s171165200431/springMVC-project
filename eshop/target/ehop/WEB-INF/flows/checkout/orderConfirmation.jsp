@@ -109,9 +109,10 @@
 
                         <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
                     </div>
-                </form:form>
+                
             </div>
         </div>
+        </form:form>
 </body>
 <%@ include file="/WEB-INF/pages/footer.jsp" %>
 </html>

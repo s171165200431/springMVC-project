@@ -91,9 +91,7 @@
 							<figcaption>
 								<h3>Luxury<span>Furniture</span><i> in online shopping</i></h3>
 								<div>
-									<p>Cupidatat non proident, sunt</p>
-									<p>Officia deserunt mollit anim</p>
-									<p>Laboris nisi ut aliquip consequat</p>
+									<p>cushion bed</p>
 								</div>
 							</figcaption>			
 						</figure>
@@ -138,8 +136,7 @@
 	<div class="new-collections">
 		<div class="container">
 			<h3 class="animated wow zoomIn" data-wow-delay=".5s">New Collections</h3>
-			<p class="est animated wow zoomIn" data-wow-delay=".5s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-				deserunt mollit anim id est laborum.</p>
+			<p class="est animated wow zoomIn" data-wow-delay=".5s">Enjoy new collection</p>
 			<div class="new-collections-grids">
 				<div class="col-md-3 new-collections-grid">
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
@@ -172,7 +169,7 @@
 						<h4><a href="single.html">SOFA</a></h4>
 						<p>Best cushion sofa .</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>50000</i> <span class="item_price">45000</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">45000</span><a class="item_add" href="all/product/viewproduct/1">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
@@ -205,7 +202,7 @@
 						<h4><a href="single.html">chair</a></h4>
 						<p>Modren chair</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>2000</i> <span class="item_price">1750</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">1750</span><a class="item_add" href="#">add to cart </a></p>
 						</div>
 					</div>
 				</div>
@@ -243,7 +240,7 @@
 						<h4><a href="single.html">Dining Table</a></h4>
 						<p>Elagent Design...</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>80000</i> <span class="item_price">75000</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">75000</span><a class="item_add" href="#">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid-sub-grids">
@@ -278,7 +275,7 @@
 								<h4><a href="single.html">cushion sofa</a></h4>
 								<p>Best sofa design ...</p>
 								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i>60000</i> <span class="item_price">50000</span><a class="item_add" href="#">add to cart </a></p>
+									<p><i></i> <span class="item_price">50000</span><a class="item_add" href="#">add to cart </a></p>
 								</div>
 							</div>
 						</div>
@@ -310,10 +307,10 @@
 										</div>
 									</div>
 								</div>
-								<h4><a href="single.html">Wall Lamp</a></h4>
-								<p>Vel illum qui dolorem eum fugiat.</p>
+								<h4><a href="single.html">Table</a></h4>
+								<p>Teak Wood</p>
 								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i>$280</i> <span class="item_price">$150</span><a class="item_add" href="#">add to cart </a></p>
+									<p><i></i> <span class="item_price">15000</span><a class="item_add" href="#">add to cart </a></p>
 								</div>
 							</div>
 						</div>
@@ -351,7 +348,7 @@
 						<h4><a href="single.html">classic design</a></h4>
 						<p>Sofa with more Pillo .</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>85000</i> <span class="item_price">80000</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">80000</span><a class="item_add" href="#">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
@@ -384,7 +381,7 @@
 						<h4><a href="single.html">SNOOKER TABLE</a></h4>
 						<p>With quality wood.</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>$340</i> <span class="item_price">$257</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">25000</span><a class="item_add" href="#">add to cart </a></p>
 						</div>
 					</div>
 				</div>
@@ -398,27 +395,14 @@
 		<div class="container">
 			<div class="timer-grids">
 				<div class="col-md-8 timer-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-					<h3><a href="products.html">sunt in culpa qui officia deserunt mollit</a></h3>
+					<h3><a href="products.html">NewArrival</a></h3>
 					<div class="rating">
-						<div class="rating-left">
-							<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-						</div>
-						<div class="rating-left">
-							<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-						</div>
-						<div class="rating-left">
-							<img src="<c:url value="resources/images/2.png"/>"  class="img-responsive" alt=" ">
-						</div>
-						<div class="rating-left">
-							<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-						</div>
-						<div class="rating-left">
-							<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-						</div>
+						
+						
 						<div class="clearfix"> </div>
 					</div>
 					<div class="new-collections-grid1-left simpleCart_shelfItem timer-grid-left-price">
-						<p><i>$580</i> <span class="item_price">20000</span></p>
+						<p><i></i> <span class="item_price">20000</span></p>
 						<h4>A chair may symbolize sitting down to take time out to contemplate a situation before proceeding.
 						 If the dreamer is providing the chair, it’s time to sit for a while with oneself to contemplate new directions. 
 						 If the chair is being offered, the dreamer should be open for taking advice. 
