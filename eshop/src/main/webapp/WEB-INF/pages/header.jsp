@@ -2,8 +2,7 @@
     pageEncoding="ISO-8859-1"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
     <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-    <%@ taglib prefix="security"
-	uri="http://www.springframework.org/security/tags"%>
+    <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags"%>
     <%@ page isELIgnored="false" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <head>
@@ -61,7 +60,7 @@
 					     <li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="<c:url value="/all/registrationForm"></c:url>">Register</a></li>
 					       </c:if>
 					       <c:if test="${pageContext.request.userPrincipal.name !=null }">
-						<li><a href="<c:url value="/loginpage?logout"></c:url>">Logout</a></li>
+						<li><a href="<c:url value="/j_spring_security_logout"></c:url>">Logout</a></li>
 			               </c:if>
 					</ul>
 				</div>
@@ -103,17 +102,12 @@
 						<!-- http://localhost:8080/project1/admin/product/productform -->	
 				                           <c:url var="url" value="/admin/product/productform"></c:url>
 				                           
-                                           <c:if test="${pageContext.request.userPrincipal.name !=null }">
+                       <c:if test="${pageContext.request.userPrincipal.name !=null }">
                                           <security:authorize access="hasRole('ROLE_ADMIN')">
                                            <li><a href="${url }">Add New Product</a></li>
                                            </security:authorize>
-   
-							
-							
-   
- 		<li class="dropdown">
-								
-							<security:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_USER')">
+     										<li class="dropdown">
+												<security:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_USER')">
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">Furniture<b class="caret"></b></a>
 							</security:authorize>
 				<ul class="dropdown-menu">

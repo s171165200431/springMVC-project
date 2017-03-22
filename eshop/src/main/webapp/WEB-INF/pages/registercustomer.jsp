@@ -77,12 +77,12 @@ function FillBilling(f) {
 			<br>
 				<div class="form-group">
 					<form:label path="firstname">FIRST NAME</form:label>
-					<form:input path="firstname" required=" " title="name should have max 15 min 3 char" pattern="[A-Za-z]{3,15}"></form:input>
+					<form:input path="firstname" required=" " title="name should have max 15 min 3 char" pattern="[A-Za-z]"></form:input>
 				</div>
 								
 						<div class="form-group">
 								<form:label path="lastname">LAST NAME</form:label>
-								<form:input path="lastname" required=" " title="name should have max 15 min 3 char" pattern="[A-Za-z]{3,15}"></form:input>
+								<form:input path="lastname" required=" " title="name should have max 15 min 3 char" pattern="[A-Za-z]"></form:input>
 						</div>
 						<div class="form-group">
 								<form:label path="email">EMAIL</form:label>
@@ -95,7 +95,7 @@ function FillBilling(f) {
 						</div>
 						<div class="form-group">
 								<form:label path="users.username">USERNAME</form:label>
-								<form:input path="users.username" title="name should have max 15 min 3 char" required=" " pattern="[A-Za-z]{3,15}"></form:input>
+								<form:input path="users.username" title="name should have min 3 char and no digit" required=" " pattern="[A-Za-z]{3,15}"></form:input>
 								${duplicateUsername}
 						</div>
 						<div class="form-group">

@@ -55,7 +55,7 @@ public String saveProduct(
 	
 	MultipartFile prodImage=product.getImage();
 	if(!prodImage.isEmpty()){
-		Path paths=Paths.get("D:/Project1Workspace/eshop/src/main/webapp/WEB-INF/resources/images/"+ product.getId()+".png");
+		Path paths=Paths.get("D:/FurnishWorkspace/eshop/src/main/webapp/WEB-INF/resources/images/"+ product.getId()+".png");
 	try {
 		prodImage.transferTo(new File(paths.toString()));
 	} catch (IllegalStateException e) {

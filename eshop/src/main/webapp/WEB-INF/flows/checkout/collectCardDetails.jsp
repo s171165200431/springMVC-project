@@ -58,11 +58,11 @@
 											<form class="form-inline">
   												<div class="form-group">
     												<label for="text">NAME ON CARD:</label>
-   													 <input type="text" required="" class="form-control" id="name">
+   													 <input type="text" required="" class="form-control" id="name" pattern="[A-Za-z]{3,15}" title="name should have min 3 char and no digit">
 												  </div>
  											 <div class="form-group">
 												    <label for="pwd">CARD NUMBER</label>
-												    <input type="text" class="form-control"title="Card Number should be 16 digit"  id="pwd" value="0000-0000-0000-0000" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '0000-0000-0000-0000';}" required="">
+												    <input type="text" class="form-control" title="Card Number should be 16 digits and no char" minlength="16" pattern="[0-9]" maxlength="16" id="pwd"  required="">
 												  </div>
 												  <h5>EXPIRATION DATE</h5>
 												  <select name='expireMM' id='expireMM'>
@@ -93,7 +93,7 @@
 													    <option value='25'>2025</option>
 													    <option value='26'>2026</option>
 													</select> 
-													<input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+													<input class="inputCard" type="hidden" name="expiry"  id="expiry" maxlength="4"/>
 												
 												
 												
@@ -107,7 +107,7 @@
 												
 													<div class="tab-form-right user-form-rt">
 														<h5>CVV NUMBER</h5>													
-														<input type="password" pattern="/^[0-9]{3}$/" value="xxx" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'xxx';}" required="">
+														<input type="password" maxlength="3" required="">
 													</div>
 													<div class="clear"></div>
 												</div>
