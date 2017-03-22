@@ -65,11 +65,12 @@
 
         <br/><br/>
 
-        <button class="btn btn-default" name="_eventId_backToCollectCustomerInfo">Back</button>
+        <button class="btn btn-default" name="_eventId_backToCollectCustomerInfo" align="left">Back</button>
+         <button class="btn btn-default" name="_eventId_cancel" align="right">Cancel</button>
 
-        <input type="submit" value="Next" class="btn btn-default" name="_eventId_shippingDetailCollected" />
+        <input type="submit" value="Next" class="btn btn-default" name="_eventId_shippingDetailCollected" /><br>
 
-        <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
+       
 
         </form:form>
         </div>

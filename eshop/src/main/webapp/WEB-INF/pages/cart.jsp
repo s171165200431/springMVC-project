@@ -33,10 +33,13 @@
 <span class="glyphicon glyphicon-remove-sign"></span>
 Clear Cart
 </a>
+<br>
+</br>
+</br>
 				<table class="timetable_sub">
 					<thead>
 						<tr>
-							<th>SL No.</th>	
+							
 							<th>Product Name</th>
 							<th>Quantity</th>
 							<th>Price</th>
@@ -44,7 +47,7 @@ Clear Cart
 						</tr>
 					</thead>
 					<tr ng-repeat="cartItem in  cart.cartItems">
-						<td class="invert">1</td>
+<!-- 					<td class="invert">1</td> -->
 					  <!--  	<td <a href="single.html"><img src="<c:url value="/resources/images/${p.id }.png"/>">class="img-responsive" /></a></td>-->
 					<!--  	<td class="invert">
 							 <div class="quantity"> 

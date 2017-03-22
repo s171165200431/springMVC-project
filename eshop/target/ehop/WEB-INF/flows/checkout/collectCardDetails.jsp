@@ -52,15 +52,7 @@
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="payment-info">
 											<h3>Personal Information</h3>
-                                    <form>
-									<div class="tab-for">				
-													<h5>EMAIL ADDRESS</h5>
-													
-														<input type="text" value="">
-													<h5>FIRST NAME</h5>													
-														<input type="text" value="">
-												</div>	
-												</form>		
+                                   
 									<h3 class="pay-title">Credit Card Info</h3>
 											<form>
 											
@@ -116,15 +108,21 @@
 
                         <button class="btn btn-default" name="_eventId_backTocollectCardDetails">Back</button>
 
-                        <input type="submit" value="Submit Order" class="btn btn-default" name="_eventId_orderConfirmed" />
+                        <input type="submit" class="btn btn-default" name="_eventId_orderConfirmed" />
 
                         <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
                     </div>
-               
+           </address>
+           </div>
+           </div>
+           </div>
+           
+                </form:form>
+            
             </div>
         </div>
         </div>
-        </form:form>
+       
 
 
 

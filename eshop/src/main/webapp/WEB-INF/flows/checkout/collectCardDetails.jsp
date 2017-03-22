@@ -51,42 +51,63 @@
                                     <div class="resp-tabs-container">
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="payment-info">
-											<h3>Personal Information</h3>
-                                    <form>
-									<div class="tab-for">				
-													<h5>EMAIL ADDRESS</h5>
-													
-														<input type="text" value="">
-													<h5>FIRST NAME</h5>													
-														<input type="text" value="">
-												</div>	
-												</form>		
+											
+                                   
 									<h3 class="pay-title">Credit Card Info</h3>
 											<form>
-											
-												<div class="tab-for">				
-													<h5>NAME ON CARD</h5>
-														<input type="text" value="">
-													<h5>CARD NUMBER</h5>													
-														<input class="pay-logo" type="text" value="0000-0000-0000-0000" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '0000-0000-0000-0000';}" required="">
-												</div>
-													
-												<div class="transaction">
-													<div class="tab-form-left user-form">
-														<h5>EXPIRATION</h5>
-															<ul>
-																<li>
-																	<input type="number" class="text_box" type="text" value="6" min="1" />	
-																</li>
-																<li>
-																	<input type="number" class="text_box" type="text" value="1988" min="1" />	
-																</li>
-																
-															</ul>
-													</div>
+											<form class="form-inline">
+  												<div class="form-group">
+    												<label for="text">NAME ON CARD:</label>
+   													 <input type="text" required="" class="form-control" id="name">
+												  </div>
+ 											 <div class="form-group">
+												    <label for="pwd">CARD NUMBER</label>
+												    <input type="text" class="form-control"title="Card Number should be 16 digit"  id="pwd" value="0000-0000-0000-0000" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '0000-0000-0000-0000';}" required="">
+												  </div>
+												  <h5>EXPIRATION DATE</h5>
+												  <select name='expireMM' id='expireMM'>
+													    <option value=''>Month</option>
+													    <option value='01'>January</option>
+													    <option value='02'>February</option>
+													    <option value='03'>March</option>
+													    <option value='04'>April</option>
+													    <option value='05'>May</option>
+													    <option value='06'>June</option>
+													    <option value='07'>July</option>
+													    <option value='08'>August</option>
+													    <option value='09'>September</option>
+													    <option value='10'>October</option>
+													    <option value='11'>November</option>
+													    <option value='12'>December</option>
+													</select> 
+													<select name='expireYY' id='expireYY'>
+													    <option value=''>Year</option>
+													    <option value='17'>2017</option>
+													    <option value='18'>2018</option>
+													    <option value='19'>2019</option>
+													    <option value='20'>2020</option>
+													    <option value='21'>2021</option>
+													    <option value='22'>2022</option>
+													    <option value='23'>2023</option>
+													    <option value='24'>2024</option>
+													    <option value='25'>2025</option>
+													    <option value='26'>2026</option>
+													</select> 
+													<input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
 													<div class="tab-form-right user-form-rt">
 														<h5>CVV NUMBER</h5>													
-														<input type="text" value="xxxx" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'xxxx';}" required="">
+														<input type="password" pattern="/^[0-9]{3}$/" value="xxx" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'xxx';}" required="">
 													</div>
 													<div class="clear"></div>
 												</div>
@@ -103,28 +124,32 @@
 										</div>
 									</div>
 									
-									
-									
+											
                                     
                                     
                            
-
-
                         <input type="hidden" name="_flowExecutionKey" />
 
                         <br/><br/>
 
-                        <button class="btn btn-default" name="_eventId_backTocollectCardDetails">Back</button>
+                        <button class="btn btn-default" name="_eventId_backTocollectShippingDetail">Back</button>
 
-                        <input type="submit" value="Submit Order" class="btn btn-default" name="_eventId_orderConfirmed" />
+                        <input type="submit" class="btn btn-default" name="_eventId_cardDetailCollected" />
 
-                        <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
+                       <center> <button class="btn btn-default" name="_eventId_cancel">Cancel</button></center>
                     </div>
-               
+          
+           </address>
+          
+           </div>
+           </div>
+            </div>          
+                </form:form>
+            
             </div>
         </div>
         </div>
-        </form:form>
+       
 
 
 

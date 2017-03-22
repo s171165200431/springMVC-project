@@ -57,9 +57,8 @@
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>9600604299</li>
 						<c:if test="${pageContext.request.userPrincipal.name ==null }">
 						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="<c:url value="/loginpage"></c:url>">Login</a></li>
-					       </c:if>
-					       <c:if test="${pageContext.request.userPrincipal.name ==null }">
-						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="<c:url value="/all/registrationForm"></c:url>">Register</a></li>
+					       
+					     <li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="<c:url value="/all/registrationForm"></c:url>">Register</a></li>
 					       </c:if>
 					       <c:if test="${pageContext.request.userPrincipal.name !=null }">
 						<li><a href="<c:url value="/loginpage?logout"></c:url>">Logout</a></li>
@@ -73,8 +72,8 @@
 						<li><a href="https://accounts.google.com/" class="g"></a></li>
 						<li><a href="https://www.instagram.com/" class="instagram"></a></li>
 					</ul>
-				  </div>
-<html>
+		  </div>
+
 				<div class="clearfix"> </div>
 			</div>
 			<div class="logo-nav">
@@ -128,42 +127,6 @@
 		</security:authorize>					
 	 </c:if>						
 							
-							 <ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Home Collection</h6>
-												<li><a href="furniture.html">Cookware</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-			
-												<li><a href="furniture.html">Dining Tables</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Home Decor</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Office Collection</h6>
-												<li><a href="furniture.html">Carpets</a></li>
-												<li><a href="furniture.html">Tables</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Sockets</a></li>
-												<li><a href="furniture.html">Electrical Machines</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Decorations</h6>
-												<li><a href="furniture.html">Toys</a></li>
-												<li><a href="furniture.html">Wall Clock</a></li>
-												<li><a href="furniture.html">Lighting</a></li>
-												<li><a href="furniture.html">Top Brands</a></li>
-											</ul>
-										</div>
-										<div class="clearfix"></div>
-									</div>
-								</ul>
 							</li>
 							 <!-- <li><a href="<c:url value="/admin/product/productform"></c:url>">Add Product</a></li>
 							<li><a href="<c:url value="/all/product/getAllProducts" ></c:url>">mailus</a></li>-->

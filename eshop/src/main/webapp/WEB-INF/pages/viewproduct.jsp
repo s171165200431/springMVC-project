@@ -142,7 +142,7 @@
 				</div>
 				<div class="col-md-7 single-right-left simpleCart_shelfItem animated wow slideInRight" data-wow-delay=".5s">
 					<h3>${product.name} </h3>
-					<h4><span class="item_price">${product.price} </span></h4>
+					<h4><span class="item_price">Rs ${product.price} </span></h4>
 					<div class="rating1">
 						<span class="starRating">
 							<input id="rating5" type="radio" name="rating" value="5">
@@ -167,7 +167,7 @@
 					</div>
 					
 					<div class="occasion-cart">
-						<a class="item_add" href=""ng-click="addToCart(${product.id })">add to cart </a>
+						<a class="item_add" title="Item Add" href=""ng-click="addToCart(${product.id })">add to cart </a>
 						
 					</div>
 					<div class="social">

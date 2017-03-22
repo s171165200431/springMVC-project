@@ -91,8 +91,7 @@
 							<figcaption>
 								<h3>Luxury<span>Furniture</span><i> in online shopping</i></h3>
 								<div>
-									<p>cushion bed</p>
-								</div>
+																	</div>
 							</figcaption>			
 						</figure>
 					</div>
@@ -136,7 +135,8 @@
 	<div class="new-collections">
 		<div class="container">
 			<h3 class="animated wow zoomIn" data-wow-delay=".5s">New Collections</h3>
-			<p class="est animated wow zoomIn" data-wow-delay=".5s">Enjoy new collection</p>
+			<p class="est animated wow zoomIn" data-wow-delay=".5s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
 			<div class="new-collections-grids">
 				<div class="col-md-3 new-collections-grid">
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
@@ -145,26 +145,7 @@
 							<div class="new-collections-grid1-image-pos">
 								<a href="single.html">Quick View</a>
 							</div>
-							<div class="new-collections-grid1-right">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png"/>" class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png"/>" class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />" class="img-responsive" />
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
+							
 						</div>
 						<h4><a href="single.html">SOFA</a></h4>
 						<p>Best cushion sofa .</p>
@@ -178,31 +159,12 @@
 							<div class="new-collections-grid1-image-pos">
 								<a href="single.html">Quick View</a>
 							</div>
-							<div class="new-collections-grid1-right">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />"class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />"class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />"class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />" class="img-responsive" "alt=" ">
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
+							
 						</div>
 						<h4><a href="single.html">chair</a></h4>
 						<p>Modren chair</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i></i> <span class="item_price">1750</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">1750</span><a class="item_add" href="all/product/viewproduct/2">add to cart </a></p>
 						</div>
 					</div>
 				</div>
@@ -213,26 +175,7 @@
 							<div class="new-collections-grid1-image-pos new-collections-grid1-image-pos1">
 								<a href="single.html">Quick View</a>
 							</div>
-							<div class="new-collections-grid1-right new-collections-grid1-right-rate">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />"class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png"  />"class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png"/>" class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" "alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />" class="img-responsive" "alt=" ">
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
+							
 							<div class="new-one">
 								<p>New</p>
 							</div>
@@ -240,7 +183,7 @@
 						<h4><a href="single.html">Dining Table</a></h4>
 						<p>Elagent Design...</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i></i> <span class="item_price">75000</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">75000</span><a class="item_add" href="all/product/viewproduct/3">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid-sub-grids">
@@ -251,31 +194,12 @@
 									<div class="new-collections-grid1-image-pos">
 										<a href="single.html">Quick View</a>
 									</div>
-									<div class="new-collections-grid1-right">
-										<div class="rating">
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/2.png"/>"  class="img-responsive" "alt="">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/2.png"/>"  class="img-responsive" "alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/2.png"/>" class="img-responsive" "alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/2.png" />" class="img-responsive" "alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/2.png" />"class="img-responsive" "alt=" ">
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
+									
 								</div>
 								<h4><a href="single.html">cushion sofa</a></h4>
 								<p>Best sofa design ...</p>
 								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i></i> <span class="item_price">50000</span><a class="item_add" href="#">add to cart </a></p>
+									<p><i></i> <span class="item_price">50000</span><a class="item_add" href="all/product/viewproduct/4">add to cart </a></p>
 								</div>
 							</div>
 						</div>
@@ -286,31 +210,12 @@
 									<div class="new-collections-grid1-image-pos">
 										<a href="single.html">Quick View</a>
 									</div>
-									<div class="new-collections-grid1-right">
-										<div class="rating">
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />"class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />"class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
+									
 								</div>
-								<h4><a href="single.html">Table</a></h4>
-								<p>Teak Wood</p>
+								<h4><a href="single.html">DinningTable</a></h4>
+								<p>TeakWood.</p>
 								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i></i> <span class="item_price">15000</span><a class="item_add" href="#">add to cart </a></p>
+									<p><i></i> <span class="item_price">75000</span><a class="item_add" href="all/product/viewproduct/5">add to cart </a></p>
 								</div>
 							</div>
 						</div>
@@ -324,31 +229,12 @@
 							<div class="new-collections-grid1-image-pos">
 								<a href="single.html">Quick View</a>
 							</div>
-							<div class="new-collections-grid1-right">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png"/>"  class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
+							
 						</div>
 						<h4><a href="single.html">classic design</a></h4>
 						<p>Sofa with more Pillo .</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i></i> <span class="item_price">80000</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">80000</span><a class="item_add" href="all/product/viewproduct/6">add to cart </a></p>
 						</div>
 					</div>
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
@@ -357,31 +243,12 @@
 							<div class="new-collections-grid1-image-pos">
 								<a href="single.html">Quick View</a>
 							</div>
-							<div class="new-collections-grid1-right">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />"class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="rating-left">
-										<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
+							
 						</div>
 						<h4><a href="single.html">SNOOKER TABLE</a></h4>
 						<p>With quality wood.</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i></i> <span class="item_price">25000</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i></i> <span class="item_price">70000</span><a class="item_add" href="all/product/viewproduct/7">add to cart </a></p>
 						</div>
 					</div>
 				</div>
@@ -396,13 +263,9 @@
 			<div class="timer-grids">
 				<div class="col-md-8 timer-grid-left animated wow slideInLeft" data-wow-delay=".5s">
 					<h3><a href="products.html">NewArrival</a></h3>
-					<div class="rating">
-						
-						
-						<div class="clearfix"> </div>
-					</div>
+					
 					<div class="new-collections-grid1-left simpleCart_shelfItem timer-grid-left-price">
-						<p><i></i> <span class="item_price">20000</span></p>
+						<p><i>$30000</i> <span class="item_price">20000</span></p>
 						<h4>A chair may symbolize sitting down to take time out to contemplate a situation before proceeding.
 						 If the dreamer is providing the chair, it’s time to sit for a while with oneself to contemplate new directions. 
 						 If the chair is being offered, the dreamer should be open for taking advice. 

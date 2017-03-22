@@ -82,9 +82,9 @@
 
         <br/><br/>
 
-        <input type="submit" value="Next" class="btn btn-default" name="_eventId_customerInfoCollected" />
+        <input type="submit" value="Next" class="btn btn-default" name="_eventId_customerInfoCollected" /><br>
 
-        <td><button  class="btn btn-default" name="_eventId_cancel">Cancel</button></td>
+        <td><center><button  value="Cancel" class="btn btn-default" name="_eventId_cancel">Cancel</button></center></td>
 
         </form:form>
         </div>

@@ -286,26 +286,7 @@
 									<div class="new-collections-grid1-image-pos">
 										<a href="single.html">Quick View</a>
 									</div>
-									<div class="new-collections-grid1-right">
-										<div class="rating">
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/2.png" />" class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />"class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />"class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-											</div>
-											<div class="rating-left">
-												<img src="<c:url value="resources/images/1.png" />" class="img-responsive" alt=" ">
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
+									
 								</div>
 								<h4><a href="single.html">Table</a></h4>
 								<p>Teak Wood</p>
