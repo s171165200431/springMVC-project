@@ -96,6 +96,10 @@
 						<c:url var="url" value="/home"></c:url>
 							<li class="active"><a href="${url}" class="act">Home</a></li>
 							
+							
+							
+							
+							
 							<c:url var="allProducts" value="/all/product/getAllProducts"></c:url>
     							 <li><a href="${allProducts}">All product</a></li>	
 							

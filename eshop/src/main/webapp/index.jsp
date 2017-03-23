@@ -37,12 +37,23 @@
 <script>
  new WOW().init();
 </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 200%;
+      margin: auto;
+  }
+  </style>
 <!-- //animation-effect -->
 </head>
 	
 <body>
 <!-- banner -->
-	<div class="banner">
+
+<!--  	<div class="banner">
 		<div class="container">
 			<div class="banner-info animated wow zoomIn" data-wow-delay=".5s">
 				<h3>Free Online Shopping</h3>
@@ -81,6 +92,68 @@
 	</div>
 <!-- //banner -->
 <!-- banner-bottom -->
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="resources/images/c2.jpg" alt="Chania" >
+        <div class="carousel-caption">
+          <h3></h3>
+          <p>Every mind in a room packed with furniture</p>
+        </div>
+      </div>
+
+      <div class="item" width="1000" height="345">
+        <img src="resources/images/c3.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p>In Modern loft,you can't just fill a space with furniture each piece has to be perfect</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="resources/images/c4.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p>Feeling Comfortable....</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="resources/images/c1.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p>In Modern loft,you can't just fill a space with furniture each piece has to be perfect</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- banner-bottom -->
 	<div class="banner-bottom">
 		<div class="container"> 
 			<div class="banner-bottom-grids">
@@ -91,9 +164,7 @@
 							<figcaption>
 								<h3>Luxury<span>Furniture</span><i> in online shopping</i></h3>
 								<div>
-									<p>Cupidatat non proident, sunt</p>
-									<p>Officia deserunt mollit anim</p>
-									<p>Laboris nisi ut aliquip consequat</p>
+									
 								</div>
 							</figcaption>			
 						</figure>
@@ -125,7 +196,7 @@
 							<img src="<c:url value="resources/images/3.jpg"  />"class="img-responsive" />
 						</div>
 						<div class="grid-left-grid1-pos">
-							<p>top and classic designs <span>2016 Collection</span></p>
+							<p>top and classic designs <span>2017 Collection</span></p>
 						</div>
 					</div>
 				</div>

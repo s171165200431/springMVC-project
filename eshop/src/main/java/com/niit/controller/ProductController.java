@@ -79,8 +79,11 @@ public String getAllProducts(Model model){
 	System.out.println("aminside getAllProducts");
 	//Assigning list of products to model attribute products
 	model.addAttribute("productList",products);
-	return "productlist";
+	
+		return "productlist";
 }
+
+
 @RequestMapping("/all/product/viewproduct/{id}")
 public String viewProduct(@PathVariable int id,Model model){
 	System.out.println("aminside viewproducts");
