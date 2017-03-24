@@ -9,7 +9,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Furnish</title>
-<link href="${pageContext.servletContext.contextPath}/resources/css/styles.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/resources/css/styles.css" rel="stylesheet" type="text/css" media="all" />
 <link href='//fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Alegreya+Sans:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -62,7 +62,7 @@
 												  </div>
  											 <div class="form-group">
 												    <label for="pwd">CARD NUMBER</label>
-												    <input type="text" class="form-control" title="Card Number should be 16 digits and no char" minlength="16" pattern="[0-9]" maxlength="16" id="pwd"  required="">
+												    <input type="text" class="form-control" title="Card Number should be 16 digits and no char" minlength="16" maxlength="16" id="pwd"  required="">
 												  </div>
 												  <h5>EXPIRATION DATE</h5>
 												  <select name='expireMM' id='expireMM'>
@@ -136,7 +136,7 @@
 
                         <input type="submit" class="btn btn-default" name="_eventId_cardDetailCollected" />
 
-                       <center> <button class="btn btn-default" name="_eventId_cancel">Cancel</button></center>
+                        <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
                     </div>
           
            </address>

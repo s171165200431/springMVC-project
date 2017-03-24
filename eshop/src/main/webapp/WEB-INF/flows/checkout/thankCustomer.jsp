@@ -25,7 +25,8 @@
         <section class="container">
             <p><a href="<spring:url value="/" />" class="btn btn-default">OK</a></p>
         </section>
-
+</div>
+</div>
 </body>
 <%@ include file="/WEB-INF/pages/footer.jsp" %>
 </html>
